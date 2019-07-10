@@ -11,6 +11,10 @@
   <ItemGroup>
     <Reference Include="envdte" />
     <Reference Include="Microsoft.VisualStudio.OLE.Interop" />
+    <Reference Include="Microsoft.VisualStudio.Shell.Framework, Version=16.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\IDE\PublicAssemblies\Microsoft.VisualStudio.Shell.Framework.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.VisualStudio.Shell.Interop" />
     <Reference Include="Microsoft.VisualStudio.Shell.Interop.8.0" />
     <Reference Include="Microsoft.VisualStudio.Shell.Interop.9.0" />
@@ -78,10 +82,6 @@
     <ProjectReference Include="..\..\src\T4Toolbox\T4Toolbox.csproj">
       <Project>{682e771a-76f7-4972-bbdc-1250b67f399b}</Project>
       <Name>T4Toolbox</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\T4Toolbox.Tests\T4Toolbox.Tests.csproj">
-      <Project>{2a05bf5e-b2b2-4222-91a3-bb86ae8a94ce}</Project>
-      <Name>T4Toolbox.Tests</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
